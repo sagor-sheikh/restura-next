@@ -20,13 +20,13 @@ export default function Rightside() {
       </div>
       <div className="absolute right-0 bottom-0 flex justify-center gap-3 bg-nb10 p-3 rounded-tl-3xl">
         <Link className="border border-secondary2 hover:border-primary duration-300 p-2 rounded-full" href="#">
-          <InstagramLogo size={24} className="ph ph-instagram-logo text-sm md:text-2xl text-primary" />
+          <InstagramLogo className="ph ph-instagram-logo text-sm md:text-2xl text-primary" />
         </Link>
         <Link className="border border-secondary2 hover:border-primary duration-300 p-2 rounded-full" href="#">
-          <FacebookLogo size={24} className="ph ph-facebook-logo text-sm md:text-2xl text-primary" />
+          <FacebookLogo className="ph ph-facebook-logo text-sm md:text-2xl text-primary" />
         </Link>
         <Link className="border border-secondary2 hover:border-primary duration-300 p-2 rounded-full" href="#">
-          <TwitchLogo size={24} className="ph ph-twitch-logo text-sm md:text-2xl text-primary" />
+          <TwitchLogo className="ph ph-twitch-logo text-sm md:text-2xl text-primary" />
         </Link>
       </div>
       <Image className="absolute right-0 bottom-[56px] md:bottom-[67px] xxl:bottom-[67px] xxxl:bottom-[66px]"
